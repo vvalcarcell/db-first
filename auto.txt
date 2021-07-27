@@ -1,0 +1,13 @@
+name: auto
+
+Column                   Type                          Attributes                        Index    
+id                       SMALLINT UNSIGNED             AUTO_INCREMENT, NOTNULL          PRIMARY KEY
+marchio                  VARCHAR(100)                  NOTNULL                          INDEX
+modello                  VARCHAR(100)                  NOTNULL
+classe                   VARCHAR(100)                  NOTNULL                          INDEX
+anno_produzione          YEAR                          NOTNULL
+peso                     SMALLINT UNSIGNED             NOTNULL
+cilindrata               DOUBLE(4,1)                   NOTNULL
+velocità                 DOUBLE(3,2)                   NOTNULL
+accellerazione           VARCHAR(100)                  NOTNULL
+prezzo                   DOUBLE(6,2)                   NOTNULL
